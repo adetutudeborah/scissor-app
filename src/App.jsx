@@ -15,7 +15,7 @@ function App() {
   const { authIsReady, user } = useAuthContext()
 
   return (
-   <div> 
+   <div className='app'>  
       {authIsReady && (
         <>  
           <Navsection />  

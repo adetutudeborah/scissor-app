@@ -1,0 +1,41 @@
+/* Get started */
+
+.get-started { 
+    background-color: var(--secondary-color);
+    background-image: url(../../assets/get-started-left-bg.svg), url(../../assets/get-started-right-bg.svg);
+    background-position: top left, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 7rem 0;
+ }
+ 
+ .get-started-title {
+    font-family: var(--default-font-family);
+    font-size: 4rem;
+    color: var(--white-color);
+    padding: 3rem 0 4rem;
+ }
+ 
+ .get-started-btn { 
+    padding: 1.2rem 4.5rem;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 100px;
+    outline: none;
+    border: solid transparent;
+ }
+
+ @media screen and (max-width: 650px) {  
+
+.get-started-title {
+    font-size: 3rem;
+    padding: 2rem 4rem;
+}
+
+}
+ 

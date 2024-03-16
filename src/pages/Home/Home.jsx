@@ -1,11 +1,14 @@
-import { Header } from "../../components";
-
+import './Home.css'
+import { Header, Features, Getstarted, Footer} from "../../components";
 
 function Home() {
   return (
-    <>
-      <Header />
-    </>
+    <div className="home">
+      <Header /> 
+      <Features />
+      <Getstarted />
+      <Footer />
+    </div>
   );
 }
 
