@@ -145,8 +145,9 @@
 }
 
 .hero-heading {
-   font-size: 2.6rem;
+   font-size: 3.5rem;
    line-height: 1.6;
+   padding: 0 1rem;
 }
 
 .hero-subheading {
@@ -156,6 +157,10 @@
 
 .underline {
    margin-top: 0px;
+}
+
+.hero-links {
+   padding: 2rem 0;
 }
 
 .hero-signup-btn,

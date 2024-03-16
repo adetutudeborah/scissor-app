@@ -18,7 +18,7 @@ function Features() {
                   Scissors is the hub of everything that has to do with your link management. 
                   We shorten your URLs, allow you creating custom ones for your personal, business, event usage. 
                   Our swift QR code creation, management and usage tracking with advance analytics for all of these is second to none. 
-              </p>
+              </p> 
           </div>
       </div>
 

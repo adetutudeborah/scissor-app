@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import underline from '../../assets/underline.svg';
  
 function Header() {  
-  return (
+  return ( 
     <div className="header">
         <div className="hero">
             <div className="hero-section">
