@@ -1,7 +1,7 @@
 /* Features  */
 
 .features {
-    margin: 14rem 14rem;
+    margin: 12rem 14rem;
     display: grid;
     grid-template-columns: 420px 1fr;
     gap: 75px;
