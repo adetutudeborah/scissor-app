@@ -1,0 +1,168 @@
+.header{
+    background: linear-gradient(to right top, #ffffff, #fffcfe, #fff8f8, #f8f8e8, #f8f8e8);
+}
+
+/* Hero */
+
+.hero-section {
+    padding-top: 8rem;
+  }
+  
+  .hero-heading {
+     width: 100%;
+     max-width: 948px;
+     margin: 0 auto;
+     text-align: center;
+     font-family: var(--default-font-family);
+     color: var(--text-color);
+     font-size: 4.8rem;
+     line-height: 1.8;
+     margin-bottom: 0;
+     padding-bottom: 0;
+  }
+  
+  .url-shortening {
+     color: var(--primary-color);
+  }
+  
+  .underline {
+     display: block;
+     text-align: center;
+     margin: 0 auto;
+     margin-top: -15px;
+  }
+  
+  .hero-subheading {
+     font-family: var(--medium-font-family);
+     font-size: 1.7rem;
+     line-height: 1.8;
+     width: 100%;
+     max-width: 900px;
+     margin: 0 auto;
+     text-align: center;
+     padding: 2rem 10rem;
+  }
+  
+  .hero-links {
+     font-family: var(--medium-font-family);
+     text-align: center;
+     padding: 3rem 0;
+  }
+  
+  .hero-signup-btn {
+     padding: 1rem 3.5rem;
+  }
+  
+  .hero-more-btn {
+     color: var(--primary-color);
+     font-size: 1.6rem;
+     font-weight: 500;
+     margin-left: 2rem;
+     padding: 1rem 3.5rem;
+     border-radius: 100px;
+  }
+  
+  .hero-more-btn:hover {
+     cursor: pointer;
+     border: 1px solid var(--primary-color);
+  }
+  
+  .btn { 
+   background-color: var(--primary-color);
+   color: white;
+   font-size: 1.5rem;
+   font-weight: 500;
+   text-decoration: none;
+   border-radius: 100px;
+   outline: none;
+   border: solid transparent;
+   transition: all 0.5s ease-in;
+ }
+ 
+ .btn:hover {
+   cursor: pointer;
+   color: var(--primary-color);
+   background: var(--white-color); 
+   border: 1px solid var(--primary-color);
+ } 
+
+
+@media screen and (max-width: 1024px) {
+
+.hero-section {
+   padding: 5rem 10rem 0 ;
+}
+  
+.hero-heading {
+   font-size: 3.5rem;
+}
+
+.hero-subheading {
+   font-size: 1.7rem;
+   padding: 3rem 2rem 1rem;
+}
+
+}
+
+@media screen and (max-width: 800px) { 
+   
+.hero-section {
+   padding: 5rem 3rem 0 ;
+}
+
+.hero-heading {
+   font-size: 3rem;
+}
+
+.hero-subheading {
+   font-size: 1.7rem;
+   padding: 2rem 6rem;
+}
+}
+
+
+@media screen and (max-width: 600px) { 
+   
+.hero-section {
+   padding: 5rem 3rem 0 ;
+}
+
+.hero-heading {
+   font-size: 3rem;
+}
+
+.hero-subheading {
+   font-size: 1.7rem;
+   padding: 2rem 0rem;
+}
+   
+}
+
+@media screen and (max-width: 600px) { 
+
+.hero-section {
+   padding: 5rem 2rem 0 ;
+}
+
+.hero-heading {
+   font-size: 2.6rem;
+   line-height: 1.6;
+}
+
+.hero-subheading {
+   font-size: 1.4rem;
+   padding: 2rem 0rem;
+}
+
+.underline {
+   margin-top: 0px;
+}
+
+.hero-signup-btn,
+.hero-more-btn {
+   font-size: 1.4rem;
+   margin-left: 1rem;
+   padding: 1rem 2rem;
+}
+   
+}

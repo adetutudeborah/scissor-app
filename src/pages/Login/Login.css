@@ -1,0 +1,232 @@
+.login-form {
+    max-width: 450px;
+    margin: 40px auto;
+    padding: 20px; 
+}
+
+.login-header {
+    color: #5C6F7F;
+    font-family: var(--default-font-family);
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Signin socials */
+
+.signinsocials{
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.signinsocial:hover{
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
+.signingoogle {
+    margin-left: 15px;
+ }
+ 
+.signinfacebook {
+   margin-left: 40px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.socialicon{
+    height: 30px;
+    width: 30px;
+    margin-right: 6px;
+ }
+
+.facebookicon {
+    height: 25px;
+    width: 25px;
+}
+
+ .sign {
+    font-size: 16px;   
+    font-family: var(--light-font-family);
+    position: relative;
+    top: 5px; 
+ }
+
+/* Partition */
+
+.partition{
+    margin: 20px 0 30px;
+    display: flex;
+    justify-content: center;
+    gap: 0.1rem;
+  }
+
+.or {
+    font-size: 15px;
+    color: #5C6F7F;
+}
+
+.partition::before {
+    content: "";
+    position: relative;
+    left: 180px;
+    bottom: 8px;
+    width: 35%;
+    border-bottom: 1px solid #b2b2b2;
+}
+
+.partition::after {
+    content: "";
+    position: relative;
+    right: 180px;
+    bottom: 8px;
+    width: 35%;
+    border-bottom: 1px solid #b2b2b2;
+  }
+
+
+/* Signin form */
+
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=date]
+ { 
+   width: 100%;
+   padding: 15px 20px;
+   margin: 10px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   box-sizing: border-box;
+   transition: 0.5s;
+   outline: none;
+   font-size: 1.8rem;
+   font-family: var(--light-font-family);
+}
+
+input::placeholder {
+    color: #5C6F7F;
+    font-size: 1.8rem;
+    font-weight: 400;
+    opacity: 0.3;
+    font-family: var(--medium-font-family);
+}
+
+input[type=email]:focus {
+    border: 1px solid var(--primary-color);
+}
+
+input[type=text]:focus {
+    border: 1px solid var(--primary-color);
+}
+
+input[type=password]:focus {
+    border: 1px solid var(--primary-color);
+}
+
+.submit {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #ffff;
+    background-color: var(--primary-color);
+    border: 0;
+    padding: 15px 30px;
+    font-size: 16px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+    margin: 40px 5px 20px 5px;
+}
+
+.submit:hover {
+    color: var(--primary-color);
+    background: #ffffff;
+    border: 1px solid var(--primary-color);
+    cursor: pointer;
+}
+
+.forgotpassword {
+    color: #5C6F7F;
+    font-family: var(--light-font-family);
+    position: relative;
+    left: 68%;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    max-width: fit-content;
+}
+
+.forgotpassword:hover {
+    text-decoration: underline;
+    color: var(--primary-color);
+}
+
+
+/* Other information */
+
+.last-section {
+    text-align: center;
+    color: #5C6F7F;
+    line-height: 1.8;
+    font-family: var(--regular-font-family);
+}
+
+.createaccount {
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+.signup {
+    color: var(--primary-color);
+}
+
+.terms {
+    font-size: 10px;
+    font-family: var(--light-font-family);
+}
+
+
+@media screen and (max-width: 350px) { 
+
+.partition{
+    gap: 2rem !important;
+  }
+
+.partition::before {
+    left: 0px !important;
+}
+
+.partition::after {
+    right: 0px !important;
+  }
+
+}
+
+@media screen and (max-width: 298px) { 
+
+.login-header {
+    padding: 10px 0;
+}
+
+.signinsocials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.signinsocial {
+    margin: 0.6rem;
+}
+
+.signingoogle {
+    margin-left: 0px;
+}
+
+.signinfacebook {
+   margin-left: 0px;
+}
+    
+}
+ 
