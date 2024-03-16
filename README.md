@@ -9,24 +9,23 @@ Scissors is a URL Shortening App that empowers businesses to tailor their shorte
   - [Screenshots](#screenshots)
 - [My process](#my-process)
   - [Technologies used](#technologies-used)
-  - [Installation](#installation)
+  - [Setting up the repository](#setting-up-the-repository)
+  - [Getting started with Scissor App](#getting-started-with-scissor-app)
   - [Testing](#testing)
   - [Deployment](#deployment)
 - [Author](#author)
 
-# Overview
-
 # Features of Scissor
 
-## Url Shortening - 
+### Url Shortening: 
 Scissor allows you to shorten URLs of your business, events. Shorten your URL at scale, URL redirects.
 
-## QR Code - 
+### QR Code:
 Generate QR codes to your business, events. Bring your audience and customers to your doorstep with this scan and go solution.
 
 # Demo
 
-- [Here's a live preview of the app]()
+- Here's a live preview of the app: https://scissor-app.vercel.app/
 
 # Screenshots
 Here are some screenshots of the Scissor App:
@@ -50,17 +49,44 @@ The `Screenshots` section provides screenshots of various pages in the project. 
 | React Copy to Clipboard | v5.1.0 |
 | Font Awesome Icon | v0.2.0 |
 
-In this project, we used `React v17.0.2` as the main front-end library to build the user interface. We also used `React Router v5.2.1` to handle client-side routing and navigation.
+In this project, we used `React v18.2.0` as the main front-end library to build the user interface. We also used `React Router v6.22.3` to handle client-side routing and navigation.
 
-`Firebase v9.0.0` was used as the backend and database provider. We leveraged Firebase Authentication, Cloud Firestore, and Cloud Functions to handle user authentication, data storage, and serverless functions.
+`Firebase v10.8.1` was used as the backend and database provider. We leveraged Firebase Authentication, Cloud Firestore, and Cloud Functions to handle user authentication, data storage, and serverless functions.
 
-## Installation
+# Setting up the repository
+
+To set up the repository, follow these steps:
+
+- Create the React App with Vite
+```
+npx create-vite@latest scissor-app --template react
+```
+
+- Change directory to the Scissor folder using 
+```
+ cd scissor-app
+```
+
+- Download project dependencies 
+```
+npm install
+```
+
+- Start the developement server
+```
+npm run dev
+```
+
+- Open `http://localhost:3000` to view the app in the browser.
+
+
+# Getting started with Scissor App
 
 1. Get API token and GUID from [Bitly](bitly.com)
 
 2. Clone the repo 
 
-        git clone 
+        git clone https://github.com/adetutudeborah/scissor-app
 
 3. Install NPM packages 
 
@@ -70,8 +96,8 @@ In this project, we used `React v17.0.2` as the main front-end library to build 
 
 5. Enter Token and guid in `.env`
 
-        REACT_APP_BITLY_TOKEN = 'enter your token key'
-        REACT_APP_GUID = 'enter guid here'
+        VITE_REACT_APP_BITLY_TOKEN = 'enter your token key'
+        VITE_REACT_APP_GUID = 'enter guid here'
 
 6. Start development Server
 
@@ -91,7 +117,7 @@ The tests are run using `Jest`, a popular testing framework for React apps.
 
 
 # Deployment
-The Scissor App has been deployed on `Vercel`, and it can be accessed at the following URL: .
+The Scissor App has been deployed on `Vercel`, and it can be accessed at the following URL: https://scissor-app.vercel.app/.
 
 
 # Author
